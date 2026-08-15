@@ -4,7 +4,7 @@ ARG ICESCREEN_VERSION=1.3.3
 
 LABEL maintainer="Andreas Sagen"
 LABEL description="ICEscreen environment for the advena Nextflow pipeline"
-LABEL org.opencontainers.image.source="https://github.com/exterex/icescreen"
+LABEL org.opencontainers.image.source="https://github.com/andreassag/icescreen"
 LABEL org.opencontainers.image.licenses="AGPL-3.0"
 
 COPY environment.yaml /tmp/environment.yaml
